@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-family: "Times New Roman", Times, serif !important;
+  }
+  
+  .no-print {
+    display: none !important;
+  }
+  
+  .print-only {
+    display: block !important;
+  }
+  
+  .page-break {
+    page-break-before: always;
+  }
+  
+  .question-item {
+    page-break-inside: avoid;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen {
+  .print-only {
+    display: none !important;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Soal Matematika Kelas 6 - Volume Bangun Ruang",
+  "description": "Kumpulan 30 soal matematika kelas 6 tentang volume bangun ruang dengan tingkat kesukaran merata (Mudah, Sedang, Sukar), kunci jawaban, pembahasan, dan export dokumen Word (.doc/.docx).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
